@@ -1,0 +1,53 @@
+/* 전체 폰트, 중앙 정렬 */
+body {
+    font-family: 'NanumSquareRound', sans-serif;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* 상단 도구 모음 */
+  .toolbar {
+    margin-bottom: 10px;
+  }
+  
+  .toolbar img {
+    width: 40px;
+    height: 40px;
+    margin: 0 8px;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+  
+  /* 팔레트 버튼 클릭 시 표시되는 컬러 피커 */
+  #colorPicker {
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+  
+  /* 브러시 사이즈 조절 슬라이더 */
+  #brushSizeRange {
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  #clearCanvasBtn {
+    vertical-align: middle;
+    padding: 6px 12px;
+    margin-left: 10px;
+  }
+  
+  /* 그림을 그릴 캔버스 */
+  #myCanvas {
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto;
+    touch-action: none; /* 모바일에서 터치 스크롤 방지 */
+  }
